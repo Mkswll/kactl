@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define int ll
 
 #define rep(i, a, b) for(int i = a; i < (b); ++i)
 #define all(x) begin(x), end(x)
@@ -8,7 +9,9 @@ typedef long long ll;
 typedef pair<int, int> pii;
 typedef vector<int> vi;
 
-int main() {
-	cin.tie(0)->sync_with_stdio(0);
-	cin.exceptions(cin.failbit);
+signed main(){
+    cin.tie(0)->sync_with_stdio(0);
+    
 }
+
+g++ -std=c++23 -fsanitize=address,undefined -g -Wall -Wfatal-errors -Wshadow $1.cpp -o $1
