@@ -7,6 +7,7 @@ using namespace std;
 typedef long long ll;
 typedef pair<int, int> pii;
 typedef vector<int> vi;
+mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
 signed main(){
     cin.tie(0)->sync_with_stdio(0);
 }
